@@ -1,0 +1,23 @@
+# CCS PIC C compiler build output
+*.cof
+*.err
+*.esym
+*.hex
+*.lst
+*.sym
+*.tre
+*.xsym
+*.STA
+*.osym
+*.o
+*.obj
+
+# Editor / IDE backups
+__history/
+*.bak
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
