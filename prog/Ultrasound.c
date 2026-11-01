@@ -221,7 +221,7 @@ void show_distance(int16 dist_cm)
    else if(dist_cm == RX_BUSY)
       printf(lcd_putc, "RX busy ");
    else
-      printf(lcd_putc, "%3Lu cm  ", dist_cm);
+      printf(lcd_putc, "%3Lu cm  ", dist_cm+1);
 }
 
 /*--------------------------------------------------------*/

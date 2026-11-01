@@ -1,0 +1,17 @@
+# Altium Designer generated files
+__Previews/
+History/
+Project Logs for */
+Project Outputs for */
+*.PrjPcbStructure
+*.SchDocPreview
+*.PcbDocPreview
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local notes / prompts (not published)
+Claude.txt
+manual_prompt.odt

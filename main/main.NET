@@ -1,0 +1,345 @@
+( {OrCAD PCB II Netlist Format}
+ ( 00000001 1C10X7R104K050B C1 0.1uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( 00000002 1C10X7R104K050B C2 0.1uF
+  ( 1 MCLR )
+  ( 2 GND )
+ )
+ ( 00000003 1C10X7R104K050B C3 22pF
+  ( 1 GND )
+  ( 2 NetC3_2 )
+ )
+ ( 00000004 1C10X7R104K050B C4 0.1uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( 00000005 1C10X7R104K050B C5 22pF
+  ( 1 GND )
+  ( 2 NetC5_2 )
+ )
+ ( 00000006 CAPPRD250W50D680H1250 C6 C10uF
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( 00000007 CAPPRD250W50D680H1250 C7 C10uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( 00000008 RESC3216X75N C8 0.1uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( 00000009 CAPPRD250W50D680H1250 C9 C10uF
+  ( 1 GND )
+  ( 2 -12V )
+ )
+ ( 00000010 RESC3216X75N C10 0.1uF
+  ( 1 -12V )
+  ( 2 GND )
+ )
+ ( 00000011 CAPPRD500W60D1300H2650 C11 1000UF_25V
+  ( 1 GND )
+  ( 2 NetC11_2 )
+ )
+ ( 00000012 CAPPRD500W60D1300H2650 C12 1000UF_25V
+  ( 1 NetC12_1 )
+  ( 2 GND )
+ )
+ ( 00000013 CAPPRD250W50D680H1250 C13 C10uF
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( 00000014 RESC3216X75N C14 0.1uF
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( 00000015 1C10X7R104K050B C15 0.1uF
+  ( 1 NetC15_1 )
+  ( 2 GND )
+ )
+ ( 00000016 1C10X7R104K050B C16 0.01uF
+  ( 1 NetC16_1 )
+  ( 2 GND )
+ )
+ ( 00000017 1C10X7R104K050B C17 0.1uF
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( 00000018 1C10X7R104K050B C18 0.1uF
+  ( 1 -12V )
+  ( 2 GND )
+ )
+ ( 00000019 1C10X7R104K050B C19 0.01uF
+  ( 1 SIGNAL )
+  ( 2 NetC19_2 )
+ )
+ ( 00000020 1C10X7R104K050B C20 0.1uF
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( 00000021 1C10X7R104K050B C21 0.1uF
+  ( 1 -12V )
+  ( 2 GND )
+ )
+ ( 00000022 1C10X7R104K050B C22 0.1uF
+  ( 1 NetC22_1 )
+  ( 2 NetC22_2 )
+ )
+ ( 00000023 1C10X7R104K050B C23 0.01uF
+  ( 1 NetC23_1 )
+  ( 2 NetC19_2 )
+ )
+ ( 00000024 1C10X7R104K050B C24 0.1uF
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( 00000025 1C10X7R104K050B C25 0.1uF
+  ( 1 -12V )
+  ( 2 GND )
+ )
+ ( 00000026 DIOAD1165W56L425D185 D1 1N4007
+  ( 1 NetD1_1 )
+  ( 2 NetC11_2 )
+ )
+ ( 00000027 DIOAD1165W56L425D185 D2 1N4007
+  ( 1 NetC12_1 )
+  ( 2 NetD1_1 )
+ )
+ ( 00000028 DIOAD1165W56L425D185 D3 1N4007
+  ( 1 NetC12_1 )
+  ( 2 NetD3_2 )
+ )
+ ( 00000029 DIOAD1165W56L425D185 D4 1N4007
+  ( 1 NetD3_2 )
+  ( 2 NetC11_2 )
+ )
+ ( 00000030 DIOAD1165W56L425D185 D5 FR107
+  ( 1 NetD5_1 )
+  ( 2 SIGNAL )
+ )
+ ( 00000031 HDR1X4 P1 Header 4
+  ( 1 +5V )
+  ( 2 RXD )
+  ( 3 TXD )
+  ( 4 GND )
+ )
+ ( 00000032 HDR1X2 P2 Header 2
+  ( 1 GND )
+  ( 2 NetP2_2 )
+ )
+ ( 00000033 HDR1X16 P3 Header 16
+  ( 1 GND )
+  ( 2 +5V )
+  ( 3 NetP3_3 )
+  ( 4 RB1 )
+  ( 5 RB2 )
+  ( 6 RC0 )
+  ( 7 NetP3_7 )
+  ( 8 NetP3_8 )
+  ( 9 NetP3_9 )
+  ( 10 NetP3_10 )
+  ( 11 RB4 )
+  ( 12 RB5 )
+  ( 13 RB6 )
+  ( 14 RB7 )
+  ( 15 NetP3_15 )
+  ( 16 GND )
+ )
+ ( 00000034 HDR1X3 P4 Header 3
+  ( 1 NetD3_2 )
+  ( 2 GND )
+  ( 3 NetD1_1 )
+ )
+ ( 00000035 TB00750802BE P5 PBT2
+  ( 1 NetP5_1 )
+  ( 2 GND )
+ )
+ ( 00000036 TO254P465X1024X2050-3P Q1 IRF9540
+  ( 1 RA0 )
+  ( 2 NetP2_2 )
+  ( 3 +5V )
+ )
+ ( 00000037 AXIAL-0.3 R1 Res1
+  ( 1 RA0 )
+  ( 2 +5V )
+ )
+ ( 00000038 RESC3216X75N R2 2.2K
+  ( 1 GND )
+  ( 2 NetP3_3 )
+ )
+ ( 00000039 RESC3216X75N R3 8.2K
+  ( 1 GND )
+  ( 2 RC0 )
+ )
+ ( 00000040 AXIAL-0.3 R4 Res1
+  ( 1 NetR4_1 )
+  ( 2 RB0 )
+ )
+ ( 00000041 RESC3216X75N R5 47E
+  ( 1 +5V )
+  ( 2 NetP3_15 )
+ )
+ ( 00000042 RESC3216X75N R6 10K
+  ( 1 +5V )
+  ( 2 MCLR )
+ )
+ ( 00000043 AXIAL-0.3 R7 Res1
+  ( 1 NetR7_1 )
+  ( 2 +5V )
+ )
+ ( 00000044 AXIAL-0.3 R8 Res1
+  ( 1 NetC15_1 )
+  ( 2 NetR8_2 )
+ )
+ ( 00000045 RESC3216X75N R9 1K
+  ( 1 NetR8_2 )
+  ( 2 RA1 )
+ )
+ ( 00000046 AXIAL-0.3 R10 Res1
+  ( 1 NetD5_1 )
+  ( 2 NetC16_1 )
+ )
+ ( 00000047 AXIAL-0.3 R11 Res1
+  ( 1 GND )
+  ( 2 NetD5_1 )
+ )
+ ( 00000048 AXIAL-0.3 R12 Res1
+  ( 1 NetC22_1 )
+  ( 2 NetR12_2 )
+ )
+ ( 00000049 AXIAL-0.3 R13 Res1
+  ( 1 NetC23_1 )
+  ( 2 SIGNAL )
+ )
+ ( 00000050 AXIAL-0.3 R14 Res1
+  ( 1 NetP5_1 )
+  ( 2 NetC22_2 )
+ )
+ ( 00000051 AXIAL-0.3 R15 Res1
+  ( 1 NetR12_2 )
+  ( 2 NetC19_2 )
+ )
+ ( 00000052 TL36WW15050 S1 SW-SPDT
+  ( 1 GND )
+  ( 2 NetR4_1 )
+  ( 3 +5V )
+ )
+ ( 00000053 FSM2JRT S2 SW_2PIN
+  ( 1 MCLR )
+  ( 2 GND )
+ )
+ ( 00000054 PIN1 TP1 Socket
+  ( 1 GND )
+ )
+ ( 00000055 PIN1 TP2 Socket
+  ( 1 RA0 )
+ )
+ ( 00000056 PIN1 TP3 Socket
+  ( 1 RA1 )
+ )
+ ( 00000057 PIN1 TP4 Socket
+  ( 1 NetR12_2 )
+ )
+ ( 00000058 PIN1 TP5 Socket
+  ( 1 SIGNAL )
+ )
+ ( 00000059 DIP1550W56P254L5219H483Q40N U1 PIC16F887
+  ( 1 MCLR )
+  ( 2 RA0 )
+  ( 3 RA1 )
+  ( 4 NetU1_4 )
+  ( 5 NetU1_5 )
+  ( 6 NetU1_6 )
+  ( 7 NetU1_7 )
+  ( 8 NetU1_8 )
+  ( 9 NetU1_9 )
+  ( 10 NetU1_10 )
+  ( 11 +5V )
+  ( 12 GND )
+  ( 13 NetC3_2 )
+  ( 14 NetC5_2 )
+  ( 15 RC0 )
+  ( 16 NetU1_16 )
+  ( 17 NetU1_17 )
+  ( 18 NetU1_18 )
+  ( 19 NetU1_19 )
+  ( 20 NetU1_20 )
+  ( 21 NetU1_21 )
+  ( 22 NetU1_22 )
+  ( 23 NetU1_23 )
+  ( 24 NetU1_24 )
+  ( 25 TXD )
+  ( 26 RXD )
+  ( 27 NetU1_27 )
+  ( 28 NetU1_28 )
+  ( 29 NetU1_29 )
+  ( 30 NetU1_30 )
+  ( 31 GND )
+  ( 32 +5V )
+  ( 33 RB0 )
+  ( 34 RB1 )
+  ( 35 RB2 )
+  ( 36 NetU1_36 )
+  ( 37 RB4 )
+  ( 38 RB5 )
+  ( 39 RB6 )
+  ( 40 RB7 )
+ )
+ ( 00000060 TO254P470X1016X2019-3P U2 LM7912
+  ( 1 GND )
+  ( 2 NetC11_2 )
+  ( 3 -12V )
+ )
+ ( 00000061 TO254P470X1028X1955-3P U3 LM7805
+  ( 1 +12V )
+  ( 2 GND )
+  ( 3 +5V )
+ )
+ ( 00000062 TO254P470X1028X1955-3P U4 LM7812
+  ( 1 NetC12_1 )
+  ( 2 GND )
+  ( 3 +12V )
+ )
+ ( 00000063 DIP794W53P254L959H508Q8N U5 LM741
+  ( 1 NetU5_1 )
+  ( 2 NetC15_1 )
+  ( 3 NetC16_1 )
+  ( 4 -12V )
+  ( 5 NetU5_5 )
+  ( 6 NetR8_2 )
+  ( 7 +12V )
+ )
+ ( 00000064 DIP794W53P254L959H508Q8N U6 LM741
+  ( 1 NetU6_1 )
+  ( 2 NetC22_1 )
+  ( 3 GND )
+  ( 4 -12V )
+  ( 5 NetU6_5 )
+  ( 6 NetR12_2 )
+  ( 7 +12V )
+ )
+ ( 00000065 DIP794W53P254L959H508Q8N U7 LM741
+  ( 1 NetU7_1 )
+  ( 2 NetC23_1 )
+  ( 3 GND )
+  ( 4 -12V )
+  ( 5 NetU7_5 )
+  ( 6 SIGNAL )
+  ( 7 +12V )
+ )
+ ( 00000066 VR5 VR1 RPot
+  ( 1 GND )
+  ( 2 NetR7_1 )
+  ( 3 NetC15_1 )
+ )
+ ( 00000067 9B112896MEEJB X1 20Mhz
+  ( 1 NetC5_2 )
+  ( 2 NetC3_2 )
+ )
+ ( 00000068 DIODE-0.7 Z1 4.7V
+  ( 1 GND )
+  ( 2 RA1 )
+ )
+)
